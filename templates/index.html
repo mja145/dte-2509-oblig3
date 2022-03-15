@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" type="text/css" href="static/style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=10">
+     <title>Oppslagstavle</title>
+ </head>
+
+<aside>
+     <div class="side-nav">
+         <ul class="nav-links">
+             <h2>Meny</h2>
+             <a href="/annonser"><p>Annonser</p></a>
+             <a href="/csrf"><p>CSRF</p></a>
+             <a href="/diverse"><p>Diverse</p></a>
+             <a href="/gjesteforelesning"><p>Gjesteforelesning</p></a>
+             <a href="/kurs"><p>Kurs</p></a>
+             <a href="/oppslag"><p>Oppslag</p></a>
+         </ul>
+     </div>
+    </aside>
+
+
+ <article>
+     <article class="forecast">
+    <h1>Oppslagstavle</h1>
+         {% for tittel in oppslag %}
+    <article class="day-forecast">
+        <h2>{{ tittel[1] }}</h2>
+        <p> Tekst </p>
+    </article>
+         {% endfor %}
+</article>
+
+
+     </article>
+<html lang="en">

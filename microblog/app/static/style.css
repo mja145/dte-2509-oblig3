@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+
+h2 {
+    display: block;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.side-nav{
+    width: 250px;
+    height: 100%;
+    background: #d8ecf7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px 30px;
+}
+
+
+.nav-links{
+    list-style: none;
+    position: relative;
+}
+.nav-links li{
+    padding: 10px 0;
+}
+
+.nav-links li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+}
+
+/* The navigation menu links */
+.side-nav a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.side-nav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0 10px;
+}
+
+p.ridge {
+    border-style: ridge;
+    border-radius: 5px;
+    border-left: 4px;
+    line-height: 0.7;
+}
+
+.frame {
+    padding: 5px;
+    background-color: #eee;
+    font: 15px 'Poppins', sans-serif;
+}
+
+.kategori {
+    margin-top:20px;
+    margin-left:270px;
+    margin-right:30px;
+    font-size: 15px;
+}
+
+.container {
+    margin-left:270px;
+    margin-right:30px;
+    font-size: 15px;
+}
+
+.block {
+    margin-top:20px;
+}
+
+.notice {
+    border-radius: 15px;
+    background: white;
+    margin: 2px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.text {
+    margin-top: 50px;
+    border-radius: 15px;
+    background: #d8ecf7;
+    padding: 30px;
+}
+
+
+

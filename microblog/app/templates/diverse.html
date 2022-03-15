@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+     <article>
+        <article class="frame" style="margin-top:50px">
+            {% for oppslag in oppslag %}
+            <article class="notice">
+                <a href="kategori={{ oppslag[1]  }}">
+                    <h3>{{ oppslag[2] }}</h3>
+                    <p class="tekst"> {{ oppslag[3] }} {{ oppslag[6] }} {{ oppslag[7] }}</p>
+                </a>
+            </article>
+            {% endfor %}
+        </article>
+    </article>
+{% endblock %}

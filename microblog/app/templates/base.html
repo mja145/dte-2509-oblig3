@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" type="text/css" href="../static/style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=10">
+     <title>Oppslagstavle</title>
+ </head>
+
+<aside>
+     <div class="side-nav">
+         <ul class="nav-links">
+             <h2>Meny</h2>
+             <a href="/kategori=1"><p>Annonser</p></a>
+             <a href="/kategori=2"><p>CSRF</p></a>
+             <a href="/kategori=3"><p>Diverse</p></a>
+             <a href="/kategori=4"><p>Gjesteforelesning</p></a>
+             <a href="/kategori=5"><p>Kurs</p></a>
+             <a href="/kategori=6"><p>Oppslag</p></a>
+         </ul>
+     </div>
+</aside>
+
+ <article>
+  <div class="container">
+    <h1 class="text"><b>Oppslagstavle</b></h1>
+      <div class="block">{% block body %}
+      {% endblock %}</div>
+  </div>
+ </article>
+
+</html>

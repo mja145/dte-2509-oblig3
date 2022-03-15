@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+
+h2 {
+  display: block;
+  font-size: 2em;
+    color: white;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  font-weight: bold;
+}
+
+.side-nav{
+    width: 250px;
+    height: 100%;
+    background: #d8ecf7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px 30px;
+}
+
+.nav-links{
+    list-style: none;
+    position: relative;
+}
+.nav-links li{
+    padding: 10px 0;
+}
+
+.nav-links li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+}
+
+/* The navigation menu links */
+.side-nav a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.side-nav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0 10px;
+}
+
+p.ridge {
+    border-style: ridge;
+    border-radius: 5px;
+    border-left: 4px;
+}
+
+td {
+    text-align: center;
+    width: 300px;
+}
+
+.content-box-blue {
+    margin: 0 0 5px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #d8ecf7;
+    border: 1px solid #afcde3;
+}
+
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.forecast > h1,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.day-forecast {
+    background: white;
+}
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
